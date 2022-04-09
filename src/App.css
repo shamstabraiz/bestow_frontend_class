@@ -1,0 +1,61 @@
+#root,
+body,
+html {
+  height: 100%;
+  max-height: 100%;
+  height: 100%;
+  max-height: 100%;
+}
+.GridHome {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 5%;
+  padding-top: 1%;
+}
+
+.sliderimage {
+  object-fit: cover;
+}
+.main {
+  height: 100%;
+}
+.darkmodeText {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+.lightmodeText {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.darkmode {
+  background-color: #212529;
+  color: white;
+}
+.lightmode {
+  background-color: white;
+  color: black;
+}
+
+.Blog {
+  width: 100%;
+  height: fill;
+}
+h1 {
+  font: bold;
+}
+.headingHome {
+  text-align: left;
+  padding-top: 30px;
+  margin-left: 40%;
+  margin-right: 40%;
+  text-align: center;
+}
+
+.loginForm {
+  background-image: url("/public/login.png");
+}
